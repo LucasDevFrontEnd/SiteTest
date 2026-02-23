@@ -284,4 +284,46 @@ hr{
     padding: 40px;
     max-height: 400px;
   }
-  
+
+
+
+
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .tipos,
+  .tipos2,
+  .tipos3,
+  .Bread,
+  .bread2,
+  .bread3,
+  .bread4 {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    right: 0;
+    top: 0;
+  }
+
+  .logo {
+    position: static;
+    margin: 20px auto;
+    display: block;
+  }
+
+  h2 {
+    position: static;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  hr {
+    margin-top: 40px;
+  }
+
+}
+
