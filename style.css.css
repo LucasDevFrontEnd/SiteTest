@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    background-image:url(3310721593_b6cc2ac4af_b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+    background-position-y: 100px;
+    background-position-y: -300px;
+    background-size: 120%;
+    
+    background-color: #4c2802;
+}
+.cafe {
+    display: flex;
+    justify-content: end;
+}
+h1{
+    text-decoration-style: dotted;
+    text-align: center;
+    font-style: italic;
+    color: #4c2802;
+    background-attachment:fixed;
+    font-size:100px;
+    
+
+}
+.banner{
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    line-height: 200px;
+}
+.topo{
+    
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tipos {
+    
+    position:relative;
+    top:-220px;
+    width: 300px;
+    right: -50px;
+    color: #ffffff;
+  padding: 15px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px; 
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  
+ 
+}
+.tipos2{ 
+
+    position:relative;
+    top: -423px;
+    width: 290px;
+    right: -940px;
+    color: #ffffff;
+  padding: 15px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+  
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  
+}
+.tipos3{
+    position:relative;
+    top:-629px;
+    width: 300px;
+    right: -500px;
+    color: #ffffff;
+  padding: 15px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+  
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  
+}
+.tipos, .tipos2, .tipos3 {
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+.tipos:hover,
+.tipos2:hover,
+.tipos3:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+
+.Expbtn{
+    padding: 12px 25px;
+  background-color: #6e6e6e;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.Expbtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: #7a3d16;
+}
+
+
+
+.Capbtn {
+    padding: 12px 25px;
+  background-color: #6e6e6e;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.Capbtn:hover{
+    transform: translateY(-5px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+ background-color: #7a3d16;
+}
+
+h2 {
+  color: #a55d33;
+  position: relative;
+  top:-630px;
+  right: -570px;
+  font: italic;
+  font-size: 400%;
+  
+}
+
+.Bread{
+  
+  position: relative;
+  top: -600px;
+  background-image: url(Anadama_bread_\(1\).png);
+  width: 400px;
+  color: #fff;
+  right: -40px;
+  padding: 100px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+  
+}
+
+.bread2{
+  position: relative;
+  top: -905px;
+  right: -700px;
+  background-image: url(360_F_106973016_CRLNkQm0fHVH76Yiz71088NZJ7ymC6fF\ \(1\).jpg);
+  width: 400px;
+  color: #fff;
+  padding: 100px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+  
+}
+
+.bread3{
+  position: relative;
+  top: -840px;
+  right: -40px;
+  background-image: url(sandwich-mixto.jpg);
+  width: 400px;
+  color: #fff;
+  padding: 100px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+}
+.bread4{
+  position: relative;
+  padding: 100px;
+  border: 2px solid #6b4f4f;
+  border-radius: 10px;
+  color: #fff;
+  width: 400px;
+  background-image: url(bolo-de-farinha-de-soja-destaque.jpg);
+  top: -1145px;
+  right: -700px;
+}
+
+.bread4,
+.bread3,
+.Bread,
+.bread2{
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+.bread3:hover,
+.bread4:hover,
+.Bread:hover,
+.bread2:hover {
+transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.btn{
+padding: 12px 25px;
+  background-color: #6e6e6e;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.btn:hover{
+  transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: #7a3d16;
+}
+hr{
+  display: flex;
+  transform: translateY(-1px);
+  margin: 0;
+  margin-top: -900px;
+
+}
+.navv{
+  text-align: start;
+  color: rgb(0, 0, 0);
+  font-size: 150%;
+}
+.info{
+ position: relative;
+  right: -20px;
+  color: #fff;
+  
+  font-size: 120%;
+}
+
+
+  .logo{
+    width: 130px;
+  height: 130px;
+  border-radius: 80px;
+  position: absolute;
+  right: 30px;
+  top: 1870px;
+  border: 2px solid #ccc;
+  background-image: url(bakery-logo-design-with-flat-style-of-bakery-chef-hat-and-spoon-illustration-vector.jpg);
+  }
+
+  .final{
+    background-image: url(caffeine-coffee-coffee-beans-585750.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    min-height: 150px;
+    width: 100%;
+    padding: 40px;
+    max-height: 400px;
+  }
+  
